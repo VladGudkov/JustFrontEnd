@@ -1,0 +1,45 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+//Custom styles here
+@import "media"
+
+.content
+  padding-top: 400px
+  padding-bottom: 250px
+  img
+    height: 45px
+    width: 50px
+    margin-bottom: 20px
+  h4
+    color: #747474
+  p
+    @include txt
+  .underline
+    margin: 0 auto
+    width: 70px
+    height: 3px
+    background: #f1eee9
+  .col-md-3:hover
+    cursor: pointer
+    h4
+      color: #cbb8a1
+    .underline
+      background: #cbb8a1
+
+
+.back-grey
+  background-color: #fbfaf8
+  padding: 50px 0 0 0
+
+.gradient
+  background: linear-gradient(to left, #4e3327,#211b19 )
+  h3
+    color: #ffffff
+  .waxom
+    color: #c7b299
+  p
+    font-size: 16pt
+    @include txt
+  button
+    @include Mbtn

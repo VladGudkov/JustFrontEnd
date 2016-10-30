@@ -1,0 +1,33 @@
+@import "bourbon"
+@import "sass/_vars"
+@import "sass/_base"
+
+.img-responsive
+  position: absolute
+  width: auto
+  height: auto
+
+.navbar-default
+  background: none
+  border: none
+  box-shadow: none
+
+.nav
+  padding-top: 18px
+  padding-bottom: 150px
+
+.navbar-header
+  padding-right: 100px
+
+.navbar-default .navbar-nav > li > a
+  color: $white
+  &:hover
+    color: #c7b299
+
+.header
+  color: $white
+  font-family: $default-font
+  #someText
+    font-size: 16pt
+  button
+    @include Mbtn
